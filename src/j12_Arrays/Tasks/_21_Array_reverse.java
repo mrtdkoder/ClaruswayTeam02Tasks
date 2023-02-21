@@ -12,7 +12,6 @@ public class _21_Array_reverse {
         Input(girdi): 123
         Output(çıktı): 321
          */
-
         //Kodu aşağıya yazınız.
 
         Scanner input = new Scanner(System.in);
