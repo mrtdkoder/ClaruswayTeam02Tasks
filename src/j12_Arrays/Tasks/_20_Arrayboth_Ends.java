@@ -15,7 +15,13 @@ public class _20_Arrayboth_Ends {
     Sonuç bu şekilde olmalıdır. [1, 4]
       */
         //Kodu aşağıya yazınız..
+        int[] arr = {1, 2, 3, 4};
+        int[] arr2 = newArrayFrom(arr);
 
+        System.out.println(Arrays.toString(arr2));
+    }
 
+    public static int[] newArrayFrom(int[] arr) {
+        return new int[] {arr[0], arr[arr.length - 1]};
     }
 }
