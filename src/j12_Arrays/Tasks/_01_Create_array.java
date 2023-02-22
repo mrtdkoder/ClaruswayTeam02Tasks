@@ -17,5 +17,7 @@ public class _01_Create_array {
         System.out.println(Arrays.toString(arr));
 
 
+
+
     }
 }
