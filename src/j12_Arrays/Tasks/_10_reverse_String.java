@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 public class _10_reverse_String {
 
@@ -10,6 +10,12 @@ public class _10_reverse_String {
         Cevap böyle olmalı :  "dlroW olleH"
          */
 
-
+        String str = "Hello World";
+        char[] charArray = str.toCharArray();
+        str = "";
+        for (int i = 0; i < charArray.length; i++) {
+            str = charArray[i] + str;
+        }
+        System.out.println("str = " + str);
     }
 }

@@ -1,4 +1,6 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
+
+import java.util.Arrays;
 
 public class _11_Average_of_Array {
 
@@ -10,6 +12,14 @@ public class _11_Average_of_Array {
          */
 
         //Kodu aşağıya yazınız.
+
+        int[] array = {12, 14, 21, 23, 10, 4};
+        int sum = 0;
+        for (int i = 0; i < array.length; i++) {
+            sum += array[i];
+        }
+
+        System.out.println("Ortalama = " + (sum/array.length));
 
 
     }

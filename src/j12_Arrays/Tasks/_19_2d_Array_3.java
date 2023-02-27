@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 import java.util.Arrays;
 
@@ -16,8 +16,8 @@ public class _19_2d_Array_3 {
 
          */
         String[][] arr =    {{"new jersey","atlanta","ohio"},
-                {"Pittsburgh" ,"ohio","new york","ohio"} ,
-                {"ohio","new york"}};
+                            {"Pittsburgh" ,"ohio","new york","ohio"} ,
+                            {"ohio","new york"}};
 
         for (int i = 0; i < arr.length; i++) {
             for (int j = 0; j < arr[i].length; j++) {

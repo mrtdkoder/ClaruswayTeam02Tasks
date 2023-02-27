@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -23,7 +23,11 @@ public class _12_Array_no14 {
 
         // code start here
 
+        int[] array = {1, 2, 3, 4};
+        System.out.println("result = " + no14(array));
+    }
 
-
+    static boolean no14(int[] array) {
+        return !((Arrays.binarySearch(array, 1)>=0) && (Arrays.binarySearch(array, 4)>=0));
     }
 }

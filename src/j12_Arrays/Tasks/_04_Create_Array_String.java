@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 public class _04_Create_Array_String {
 
@@ -12,6 +12,7 @@ public class _04_Create_Array_String {
 
         // Kodu aşağıya yazınız..
 
-
+        String[] array = {"new jersey", "new york", "boston", "California"};
+        System.out.println(array.length);
     }
 }

@@ -14,8 +14,19 @@ public class Task14 {
                     --> Integer.valueOf()
          */
 
+        String str = "ade1r4d3";
+        toplamYazdir(str);
+    }
 
-
+    private static void toplamYazdir(String str) {
+        char[] charArray = str.toCharArray();
+        int ttl = 0;
+        for (char c : charArray) {
+            if (Character.isDigit(c)) {
+                ttl+=Integer.valueOf(c+"");
+            }
+        }
+        System.out.println("ttl = " + ttl);
     }
 
 

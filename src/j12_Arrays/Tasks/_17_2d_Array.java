@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 import java.util.Arrays;
 
@@ -13,6 +13,7 @@ public class _17_2d_Array {
          */
 
         //Kodu aşağıya yazınız.
+
         int[][] arr = {{2,3,2,4},{4,1,5},{7,2,5},{7,2,5}};
 
         for (int i =0 ; i<arr.length ; i++){
@@ -24,6 +25,7 @@ public class _17_2d_Array {
             System.out.println(Arrays.toString(arr[i]));
         }
 
-
     }
+
+
 }

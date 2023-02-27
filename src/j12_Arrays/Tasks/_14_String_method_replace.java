@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 public class _14_String_method_replace {
 
@@ -10,6 +10,18 @@ public class _14_String_method_replace {
         Sonuç bu şekilde olmalıdır:
         HellK WKrld
          */
+
+        String str = "Hello World";
+        char[] arr = str.toCharArray();
+        str = "";
+        for (int i = 0; i < arr.length; i++) {
+            if (arr[i]=='o') {
+                str += "K";
+            } else {
+                str += arr[i];
+            }
+        }
+        System.out.println("str = " + str);
 
 
     }
