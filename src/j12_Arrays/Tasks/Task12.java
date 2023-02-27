@@ -12,8 +12,10 @@ public class Task12 {
         output:{4,36,16,25,64,81}
         */
 
-
-
+        int[] arr = {2, 6, 4, 5, 8, 9};
+        Arrays.stream(arr).forEach(x -> {
+            System.out.println(x*x);
+        });
     }
 
 }

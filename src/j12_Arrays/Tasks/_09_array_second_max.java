@@ -1,4 +1,6 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
+
+import java.util.Arrays;
 
 public class _09_array_second_max {
 
@@ -11,6 +13,10 @@ public class _09_array_second_max {
 
         // Kodu aşağıya yazınız..
 
+        int[] arr = {15, 25, 22, 18, 30};
+        Arrays.sort(arr);
+
+        System.out.println("2. en buyuk = " + arr[arr.length - 2]);
 
 
     }

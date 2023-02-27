@@ -1,4 +1,6 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
+
+import java.util.Arrays;
 
 public class _07_array_max_value {
 
@@ -11,5 +13,8 @@ public class _07_array_max_value {
 
         // code start here
 
+        int[] arr = {12,2,5,15,8};
+        Arrays.sort(arr);
+        System.out.println("enbuyuk = " + arr[arr.length - 1]);
     }
 }

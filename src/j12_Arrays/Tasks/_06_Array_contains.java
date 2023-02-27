@@ -1,4 +1,6 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
+
+import java.util.Arrays;
 
 public class _06_Array_contains {
 
@@ -13,6 +15,8 @@ public class _06_Array_contains {
 
         //Kodu aşağıya yazınız..
 
+        String[] array = {"Apple", "Orange", "Banana", "Pineapple"};
+        System.out.println((Arrays.binarySearch(array, "Apple") < 0 ? "False" : "True"));
 
     }
 }

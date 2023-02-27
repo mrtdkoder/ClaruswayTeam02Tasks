@@ -1,4 +1,4 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
 
 import java.util.Arrays;
 
@@ -13,9 +13,8 @@ public class _01_Create_array {
 
         //Kodu aşağıya yazınız.
 
-        String[] arr = {"Apple", "Orange", "Banana", "Kiwi"};
-        System.out.println(Arrays.toString(arr));
-
+        String[] arr_meyveler = {"Apple", "Orange", "Banana", "Kiwi"};
+        System.out.println("arr_meyveler = " + Arrays.toString(arr_meyveler));
 
     }
 }

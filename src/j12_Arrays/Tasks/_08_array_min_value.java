@@ -1,4 +1,6 @@
-package j12_Arrays.Tasks;
+package j12_Arrays;
+
+import java.util.Arrays;
 
 public class _08_array_min_value {
 
@@ -11,6 +13,10 @@ public class _08_array_min_value {
 
         // Kodu aşağıya yazınız..
 
+        int[] arr = {14, 19, 5, 21};
+
+        Arrays.sort(arr);
+        System.out.println("en kucuk = " + arr[0]);
 
     }
 }
